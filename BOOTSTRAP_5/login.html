@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .outer{
+            min-height: 700px;
+            background:url(img/a1.jpg);
+            background-size:100% 100%;
+        }
+        .a{
+            min-height: 500px;
+            background: rgba(0,0,0,.5);
+        }
+        .contact{ min-height:300px;}
+        .form-control{margin-bottom: 15px;}
+    </style>
+</head>
+<body>
+    <div class="container-fluid outer">
+        <div class="row a">
+            <div class="col-sm-4"> </div>
+            <div class="col-sm-4 contact bg-light my-5 p-4">
+                <div class=" text-center fs-5 text-danger">CONTACT US</div>
+                Name:<input type="text " class="form-control"/>
+                Email:<input type="text" class="form-control"/>
+                Mobile:<input type="text" class="form-control"/>
+                Massage:<input type="text" class="form-control"/>
+                <input type="submit" class="btn btn-outline-danger " class="form-control"/>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
